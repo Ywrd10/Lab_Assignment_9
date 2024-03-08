@@ -49,7 +49,7 @@ void bubbleSort(element *arr, int n) {
     }
 }
 
-// Selection Sort
+
 void selectionSort(element *arr, int n) {
     int minIdx, temp,temp2;
     for (int i = 0; i < n - 1; i++) {
@@ -76,7 +76,6 @@ int main() {
     int arr1[SIZE] = {97, 16, 45, 63, 13, 22, 7, 58, 72};
     int arr2[SIZE] = {90, 80, 70, 60, 50, 40, 30, 20, 10};
     
-    // Create arrays of elements
     element *elements1 = createArray(arr1);
     element *elements2 = createArray(arr2);
 
